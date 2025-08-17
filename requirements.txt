@@ -1,8 +1,14 @@
 # SEC 10-K Analyzer Requirements
 # Install with: pip install -r requirements.txt
 
-# For accessing SEC EDGAR filings
-edgartools>=2.0.0
+# Web framework for the app interface
+streamlit>=1.28.0
+
+# For downloading SEC EDGAR filings
+sec-edgar-downloader>=4.0.0
 
 # For Anthropic API
 anthropic>=0.18.0
+
+# For tokenizing text (used for chunking)
+tiktoken>=0.5.0
