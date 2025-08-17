@@ -1,1 +1,8 @@
-streamlit
+# SEC 10-K Analyzer Requirements
+# Install with: pip install -r requirements.txt
+
+# For accessing SEC EDGAR filings
+edgartools>=2.0.0
+
+# For Anthropic API
+anthropic>=0.18.0
